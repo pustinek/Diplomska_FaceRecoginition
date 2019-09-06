@@ -1,0 +1,27 @@
+{
+  "detection": {
+    "code": "SUCCESS",
+    "detections": 0
+  },
+  "identification": {
+    "code":"SUCCESS",
+    "identified": 0,
+    "persons": [
+      {
+        "group": "students",
+        "name": "david",
+        "userData": "A-grade students",
+        "confidence": 0.8
+      }
+    ]
+  },
+  "errors": [
+    {
+      "code": "NO_API_KEY",
+      "message": "no api key was specified for Azure-API, set it in config files"
+    }
+  ]
+}
+
+
+

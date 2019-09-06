@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mqtt:
+    build: .
+    volumes:
+      - ../code/.:/User  # <--  THIS line enables hot code reloading!
+      - ../config.yaml:/User/config.yaml
+    network_mode: bridge
+    container_name: mqtt
+    restart: unless-stopped
+
